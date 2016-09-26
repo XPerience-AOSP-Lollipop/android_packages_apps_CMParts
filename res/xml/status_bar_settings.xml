@@ -79,4 +79,10 @@
         android:entries="@array/status_bar_quick_qs_pulldown_entries"
         android:entryValues="@array/status_bar_quick_qs_pulldown_values" />
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.android.settings.xperience.NetworkTraffic"
+        android:layout="@layout/preference_traffic"
+        android:title="@string/traffic_category" />
+
 </PreferenceScreen>

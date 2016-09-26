@@ -55,5 +55,7 @@
     <dimen name="fab_press_translation_z">9dp</dimen>
 
     <dimen name="profile_instruction_padding">8dp</dimen>
+    
+    <dimen name="header_icon_width">28dp</dimen>
 </resources>
 
