@@ -451,4 +451,18 @@
     <string name="protected_apps_manager_title">Protected apps</string>
     <string name="protected_apps_manager_summary">Manage which apps are hidden behind a secure lock</string>
 
+    <string name="traffic_category">Traffic indicators</string>
+
+    <!-- Display : Rotation  -->
+    <string name="accelerometer_title">Auto-rotate screen</string>
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
 </resources>
