@@ -56,11 +56,11 @@
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
 
-    <com.android.settings.xperience.CustomSeekBarPreference
+    <com.xperience.settings.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold"
-        android:max="100"
-        settings:min="0"
+        android:maximun="100"
+        settings:minimun="0"
         settings:units="kB/s"
         android:dependency="network_traffic_autohide"
         android:persistent="false" />
