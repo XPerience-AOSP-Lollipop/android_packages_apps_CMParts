@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="cmparts_title">CyanogenMod Settings</string>
+    <string name="cmparts_title">XPerience Settings</string>
     <string name="loading">Loading\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Cancel</string>
@@ -36,7 +36,7 @@
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_title">Privacy</string>
-    <string name="privacy_settings_category" translatable="false">CyanogenMod</string>
+    <string name="privacy_settings_category" translatable="false">XPerience</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
