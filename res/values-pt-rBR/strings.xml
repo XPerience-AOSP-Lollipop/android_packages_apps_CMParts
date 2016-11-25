@@ -207,8 +207,8 @@
   <string name="navigation_bar_left_summary">Coloque a barra de navegação no lado esquerdo da tela em modo paisagem</string>
   <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta ao digitar</string>
   <string name="navigation_bar_arrow_keys_summary">Exibir botões de cursor esquerdo e direito ao digitar. (Substitui o comutador IME).</string>
-  <string name="navigation_bar_home_long_press_title">Ir ao Home ao pressionar longamente</string>
-  <string name="navigation_bar_home_double_tap_title">Ir ao Home ao tocar (toque duplo) 2 vezes</string>
+  <string name="navigation_bar_home_long_press_title">Ao pressionar botão Home longamente</string>
+  <string name="navigation_bar_home_double_tap_title">Ao tocar 2 vezes (toque duplo) no botão Home</string>
   <string name="navigation_bar_recents_title">Ações recentes de pressão longa</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu de energia</string>
@@ -292,11 +292,6 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Remover este aplicativo?</string>
   <!-- Profile network mode -->
-  <string name="profile_networkmode_2g">2G</string>
-  <string name="profile_networkmode_3g">3G</string>
-  <string name="profile_networkmode_4g">4G</string>
-  <string name="profile_networkmode_2g3g">2G/3G</string>
-  <string name="profile_networkmode_2g3g4g">2G/3G/4G</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Substituições de volume</string>
   <string name="connection_state_enabled">Habilitar</string>

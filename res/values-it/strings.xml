@@ -292,11 +292,6 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Rimuovere questa app?</string>
   <!-- Profile network mode -->
-  <string name="profile_networkmode_2g">2G</string>
-  <string name="profile_networkmode_3g">3G</string>
-  <string name="profile_networkmode_4g">LTE</string>
-  <string name="profile_networkmode_2g3g">2G/3G</string>
-  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Override di volume</string>
   <string name="connection_state_enabled">Attiva</string>
