@@ -179,22 +179,22 @@
   <string name="volbtn_cursor_control_off">Disattivato</string>
   <string name="volbtn_cursor_control_on">Volume su/giù sposta il cursore sinistra/destra</string>
   <string name="volbtn_cursor_control_on_reverse">Volume su/giù sposta il cursore destra/sinistra</string>
-  <string name="power_end_call_title">End call</string>
-  <string name="power_end_call_summary">Pressing the power button will end the current call</string>
-  <string name="swap_volume_buttons_title">Reorient</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-  <string name="button_wake_title">Wake up device</string>
-  <string name="home_answer_call_title">Answer call</string>
-  <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
+  <string name="power_end_call_title">Termina chiamata</string>
+  <string name="power_end_call_summary">Premere il tasto accensione/spegnimento per teminare la chiamata</string>
+  <string name="swap_volume_buttons_title">Inverti orientamento</string>
+  <string name="swap_volume_buttons_summary">Invertire i pulsanti del volume quando lo schermo è ruotato</string>
+  <string name="button_wake_title">Accendi schermo</string>
+  <string name="home_answer_call_title">Rispondi alla chiamata</string>
+  <string name="home_answer_call_summary">Premere il tasto home per rispondere alla chiamata</string>
   <!-- Key backlight -->
-  <string name="button_backlight_title">Backlight</string>
-  <string name="button_backlight_enabled">Illuminate buttons</string>
-  <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
-  <string name="button_backlight_seekbar_title">Button brightness</string>
-  <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
-  <string name="backlight_timeout_title">Illumination timeout</string>
-  <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-  <string name="backlight_summary_disabled">Disabled</string>
+  <string name="button_backlight_title">Retroilluminazione</string>
+  <string name="button_backlight_enabled">Illumina tasti</string>
+  <string name="keyboard_backlight_enabled">Illumina tastiera</string>
+  <string name="button_backlight_seekbar_title">Luminosità tasti</string>
+  <string name="keyboard_backlight_seekbar_title">Luminosità tastiera</string>
+  <string name="backlight_timeout_title">Durata illuminazione</string>
+  <string name="backlight_timeout_unlimited">Non spegnere</string>
+  <string name="backlight_summary_disabled">Disattivato</string>
   <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
   <string name="backlight_summary_enabled">Enabled</string>
   <!-- Buttons - Enable navbar -->
@@ -352,8 +352,8 @@
   <string name="ring_mode_title">Modalità suoneria</string>
   <string name="ring_mode_normal">Normale</string>
   <string name="ring_mode_vibrate">Vibra</string>
-  <string name="ring_mode_mute">Muto</string>
-  <string name="ring_volume_title">Ringer volume</string>
+  <string name="ring_mode_mute">Silenziosa</string>
+  <string name="ring_volume_title">Volume suoneria</string>
   <string name="incoming_call_volume_title">Suoneria</string>
   <string name="notification_volume_title">Notifica</string>
   <string name="media_volume_title">Media</string>
