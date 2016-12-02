@@ -73,10 +73,10 @@
   <string name="pulse_speed_very_fast">Molto veloce</string>
   <string name="pulse_speed_fast">Veloce</string>
   <string name="pulse_speed_normal">Normale</string>
-  <string name="pulse_speed_slow">Slow</string>
-  <string name="pulse_speed_very_slow">Very slow</string>
+  <string name="pulse_speed_slow">Lenta</string>
+  <string name="pulse_speed_very_slow">Molto lenta</string>
   <!-- Battery light settings -->
-  <string name="battery_light_title">Battery light</string>
+  <string name="battery_light_title">Luce batteria</string>
   <string name="battery_low_pulse_title">Pulse if battery low</string>
   <string name="battery_light_list_title">Colors</string>
   <string name="battery_light_low_color_title">Battery low</string>
@@ -366,52 +366,52 @@
   <string name="status_bar_notif_count_title">Mostra conteggio notifiche</string>
   <string name="status_bar_notif_count_summary">Visualizzare il numero di notifiche in sospeso</string>
   <string name="status_bar_quick_qs_pulldown_title">Apertura rapida</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Il bordo %1$s della barra di stato mostra le impostazioni rapide</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Sinistro</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Destro</string>
+  <string name="status_bar_quick_qs_pulldown_off">Disabilitato</string>
+  <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
+  <string name="status_bar_quick_qs_pulldown_right">Destra</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_style_title">Clock style</string>
-  <string name="status_bar_clock_style_right">Right</string>
-  <string name="status_bar_clock_style_left">Left</string>
-  <string name="status_bar_clock_style_center">Center</string>
-  <string name="status_bar_clock_style_hidden">Hidden</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_clock_style_title">Stile orologio</string>
+  <string name="status_bar_clock_style_right">Destra</string>
+  <string name="status_bar_clock_style_left">Sinistra</string>
+  <string name="status_bar_clock_style_center">Centro</string>
+  <string name="status_bar_clock_style_hidden">Nascosto</string>
+  <string name="status_bar_am_pm_title">Stile AM/PM</string>
+  <string name="status_bar_am_pm_info">Orologio 24 ore attivo</string>
+  <string name="status_bar_am_pm_normal">Normale</string>
+  <string name="status_bar_am_pm_small">Piccolo</string>
+  <string name="status_bar_am_pm_hidden">Nascosto</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
+  <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+  <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
+  <string name="status_bar_battery_style_circle">Circolare</string>
+  <string name="status_bar_battery_style_text">Testo</string>
+  <string name="status_bar_battery_style_hidden">Nascosto</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
+  <string name="status_bar_battery_percentage_default">Nascosta</string>
+  <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
+  <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
-  <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
+  <string name="status_bar_icons_title">Icone della barra di stato</string>
+  <string name="status_bar_icons_summary">Controlla quali icone della barra di stato vengono visualizzate</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+  <string name="status_bar_double_tap_to_sleep_title">Doppio tocco spegne schermo</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
   <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Protected apps</string>
-  <string name="protected_apps_manager_summary">Manage which apps are hidden behind a secure lock</string>
-  <string name="traffic_category">Traffic indicators</string>
+  <string name="protected_apps_manager_title">App protette</string>
+  <string name="protected_apps_manager_summary">Gestisci le app nascoste da un blocco di sicurezza</string>
+  <string name="traffic_category">Indicatori di traffico</string>
   <!-- Display : Rotation  -->
-  <string name="accelerometer_title">Auto-rotate screen</string>
-  <string name="display_rotation_title">Rotation settings</string>
-  <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-  <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-  <string name="display_rotation_unit">degrees</string>
-  <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
+  <string name="accelerometer_title">Rotazione automatica dello schermo</string>
+  <string name="display_rotation_title">Impostazioni di rotazione</string>
+  <string name="display_rotation_enabled">Rotazione automatica attiva</string>
+  <string name="display_rotation_disabled">Rotazione automatica non attiva</string>
+  <string name="display_rotation_unit">gradi</string>
+  <string name="display_lockscreen_rotation_title">Ruotare schermata di blocco</string>
   <string name="display_rotation_category_title">Rotation modes</string>
   <string name="display_rotation_0_title">0 degrees</string>
   <string name="display_rotation_90_title">90 degrees</string>
