@@ -226,15 +226,15 @@
   <string name="volume_keys_control_ring_stream_summary_off">Tasti volume regolano volume riproduzione</string>
   <string name="camera_double_tap_power_gesture_title">Apri fotocamera</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
+  <string name="camera_double_tap_power_gesture_desc">Premere due volte tasto accensione/spegnimento per aprire la fotocamera</string>
   <!-- Profiles -->
-  <string name="profile_menu_delete_title">Delete</string>
-  <string name="profile_action_none">Leave unchanged</string>
-  <string name="profile_action_system">System default</string>
-  <string name="profile_action_disable">Turn off</string>
-  <string name="profile_action_enable">Turn on</string>
-  <string name="profile_trigger_a2dp_connect">On A2DP connect</string>
-  <string name="profile_trigger_a2dp_disconnect">On A2DP disconnect</string>
+  <string name="profile_menu_delete_title">Elimina</string>
+  <string name="profile_action_none">Lascia invariato</string>
+  <string name="profile_action_system">Predefinito di sistema</string>
+  <string name="profile_action_disable">Spegni</string>
+  <string name="profile_action_enable">Accendi</string>
+  <string name="profile_trigger_a2dp_connect">A2DP connesso</string>
+  <string name="profile_trigger_a2dp_disconnect">A2DP disconnesso</string>
   <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
@@ -412,45 +412,45 @@
   <string name="display_rotation_disabled">Rotazione automatica non attiva</string>
   <string name="display_rotation_unit">gradi</string>
   <string name="display_lockscreen_rotation_title">Ruotare schermata di blocco</string>
-  <string name="display_rotation_category_title">Rotation modes</string>
-  <string name="display_rotation_0_title">0 degrees</string>
-  <string name="display_rotation_90_title">90 degrees</string>
-  <string name="display_rotation_180_title">180 degrees</string>
-  <string name="display_rotation_270_title">270 degrees</string>
+  <string name="display_rotation_category_title">Modalità di rotazione</string>
+  <string name="display_rotation_0_title">0 gradi</string>
+  <string name="display_rotation_90_title">90 gradi</string>
+  <string name="display_rotation_180_title">180 gradi</string>
+  <string name="display_rotation_270_title">270 gradi</string>
   <!-- Weather -->
-  <string name="weather_settings_title">Weather</string>
-  <string name="weather_settings_no_services_prompt">No weather provider services installed</string>
-  <string name="weather_settings_no_services_summary">Install a weather provider to receive weather updates</string>
-  <string name="weather_settings_button">Provider settings</string>
-  <string name="weather_settings_activity_not_found">Unable to launch the settings menu of this provider</string>
-  <string name="weather_settings_add_weather_provider">Add weather provider</string>
-  <string name="weather_settings_general_settings_title">General</string>
-  <string name="weather_settings_providers_title">Providers</string>
-  <string name="weather_settings_temp_units_title">Temperature unit</string>
+  <string name="weather_settings_title">Meteo</string>
+  <string name="weather_settings_no_services_prompt">Nessun provider di servizi meteo installato</string>
+  <string name="weather_settings_no_services_summary">Installare un provider di servizi meteo per ricevere gli aggiornamenti</string>
+  <string name="weather_settings_button">Impostazioni provider</string>
+  <string name="weather_settings_activity_not_found">Impossibile avviare il menu di impostazioni di questo provider</string>
+  <string name="weather_settings_add_weather_provider">Aggiungi provider meteo</string>
+  <string name="weather_settings_general_settings_title">Generale</string>
+  <string name="weather_settings_providers_title">Provider</string>
+  <string name="weather_settings_temp_units_title">Unità di temperatura</string>
   <string name="weather_settings_temp_celsius">Celsius</string>
   <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
-  <string name="weather_settings_keyword">weather</string>
-  <string name="status_bar_show_weather_title">Show weather</string>
-  <string name="status_bar_show_weather_summary">Display the current temperature on the status bar</string>
+  <string name="weather_settings_keyword">meteo</string>
+  <string name="status_bar_show_weather_title">Visualizza meteo</string>
+  <string name="status_bar_show_weather_summary">Visualizzare la temperatura corrente sulla barra di stato</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Battery saver and performance</string>
-  <string name="perf_profile_settings_summary">Adjust power saving features and device performance</string>
-  <string name="perf_profile_overview_summary">Current profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
-  <string name="perf_profile_category_title">Device performance</string>
-  <string name="perf_profile_title">Performance profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
-  <string name="perf_profile_fail_toast">The performance profile is currently unavailable</string>
-  <string name="power_save_category_title">Battery saving</string>
-  <string name="power_save_title">Extreme power saver</string>
-  <string name="power_save_summary">Restrict device performance and background activity to save power</string>
-  <string name="auto_power_save_title">Automatic power saver</string>
-  <string name="auto_power_save_summary_on">Automatically enable power save mode at %d percent battery</string>
-  <string name="auto_power_save_summary_off">Do not enable power save mode automatically</string>
-  <string name="app_perf_profiles_title">Automatic optimization</string>
-  <string name="app_perf_profiles_summary">Automatically choose an appropriate performance profile for applications and usage patterns</string>
+  <string name="perf_profile_settings_title">Prestazioni e risparmio energetico</string>
+  <string name="perf_profile_settings_summary">Regolare risparmio energetico e prestazioni del dispositivo</string>
+  <string name="perf_profile_overview_summary">Profilo corrente: <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+  <string name="perf_profile_category_title">Prestazioni dispositivo</string>
+  <string name="perf_profile_title">Profilo prestazioni: <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+  <string name="perf_profile_fail_toast">Il profilo delle prestazioni non è al momento disponibile</string>
+  <string name="power_save_category_title">Risparmio batteria</string>
+  <string name="power_save_title">Risparmio energetico estremo</string>
+  <string name="power_save_summary">Limitare le prestazioni e i processi in background per risparmiare energia</string>
+  <string name="auto_power_save_title">Risparmio energetico automatico</string>
+  <string name="auto_power_save_summary_on">Attivare automaticamente risparmio energetico al %d batteria</string>
+  <string name="auto_power_save_summary_off">Non attivare la modalità risparmio energetico automaticamente</string>
+  <string name="app_perf_profiles_title">Ottimizzazione automatica</string>
+  <string name="app_perf_profiles_summary">Scegliere automaticamente un profilo prestazioni in base ad applicazioni e utilizzo</string>
   <!-- Applications: Expanded desktop -->
-  <string name="expanded_desktop_settings_title">Expanded desktop</string>
-  <string name="expanded_desktop_settings_summary">Expand your available desktop space by hiding the status bar, navigation bar, or both</string>
-  <string name="expanded_desktop_options_title">Customization options</string>
+  <string name="expanded_desktop_settings_title">Desktop esteso</string>
+  <string name="expanded_desktop_settings_summary">Espandere lo spazio desktop nascondendo la barra di stato, la barra di navigazione o entrambi</string>
+  <string name="expanded_desktop_options_title">Opzioni di personalizzazione</string>
   <string name="expanded_desktop_style_title">Expanded desktop style</string>
   <string name="expanded_desktop_style_hide_nothing">Hide nothing</string>
   <string name="expanded_desktop_style_hide_status">Hide status bar</string>
