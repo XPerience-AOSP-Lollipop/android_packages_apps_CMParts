@@ -451,10 +451,10 @@
   <string name="expanded_desktop_settings_title">Desktop esteso</string>
   <string name="expanded_desktop_settings_summary">Espandere lo spazio desktop nascondendo la barra di stato, la barra di navigazione o entrambi</string>
   <string name="expanded_desktop_options_title">Opzioni di personalizzazione</string>
-  <string name="expanded_desktop_style_title">Expanded desktop style</string>
-  <string name="expanded_desktop_style_hide_nothing">Hide nothing</string>
-  <string name="expanded_desktop_style_hide_status">Hide status bar</string>
-  <string name="expanded_desktop_style_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_desktop_style_hide_both">Hide both</string>
-  <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
+  <string name="expanded_desktop_style_title">Stile desktop esteso</string>
+  <string name="expanded_desktop_style_hide_nothing">Non nascondere nulla</string>
+  <string name="expanded_desktop_style_hide_status">Nascondi barra di stato</string>
+  <string name="expanded_desktop_style_hide_navigation">Nascondi barra di navigazione</string>
+  <string name="expanded_desktop_style_hide_both">Nascondi entrambi</string>
+  <string name="expanded_desktop_nothing_to_show_text">Disattivare per personalizzare il desktop esteso per le singole app</string>
 </resources>
