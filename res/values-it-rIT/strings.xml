@@ -184,6 +184,8 @@
   <string name="swap_volume_buttons_title">Inverti orientamento</string>
   <string name="swap_volume_buttons_summary">Invertire i pulsanti del volume quando lo schermo è ruotato</string>
   <string name="button_wake_title">Accendi schermo</string>
+  <string name="volume_answer_call_title">Answer call</string>
+  <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
   <string name="home_answer_call_title">Rispondi alla chiamata</string>
   <string name="home_answer_call_summary">Premere il tasto home per rispondere alla chiamata</string>
   <!-- Key backlight -->
