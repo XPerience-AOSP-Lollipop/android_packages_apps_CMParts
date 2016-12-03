@@ -298,7 +298,7 @@
   <string name="profile_volumeoverrides_title">Override di volume</string>
   <string name="connection_state_enabled">Attiva</string>
   <string name="volume_override_summary">Imposta a %1$s/%2$s</string>
-  <string name="profile_volume_override_checkbox_label">Eseguire l\'override di volume</string>
+  <string name="profile_volume_override_checkbox_label">Forza volume</string>
   <!-- Menu item for managing profiles -->
   <string name="profile_profiles_manage">Profili</string>
   <string name="profile_profile_manage">Gestione profilo</string>
@@ -336,10 +336,10 @@
   <string name="profile_lockmode_policy_disabled_summary">Questo profilo è disattivato da un amministratore del dispositivo</string>
   <string name="profile_lockmode_insecure_summary">Non chiedere PIN o password</string>
   <string name="profile_lockmode_disabled_summary">Disattivare la schermata di blocco</string>
-  <string name="profile_airplanemode_title">Modalità aero</string>
-  <string name="profile_brightness_title">Luminosità dello schermo</string>
+  <string name="profile_airplanemode_title">Modalità aereo</string>
+  <string name="profile_brightness_title">Luminosità schermo</string>
   <string name="profile_brightness_override_summary">Imposta a %1$d%%</string>
-  <string name="profile_brightness_override_checkbox_label">Eseguire l\'override di luminosità</string>
+  <string name="profile_brightness_override_checkbox_label">Forza luminosità</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Hotspot portatile Wi\u2011Fi</string>
@@ -353,7 +353,7 @@
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Modalità suoneria</string>
   <string name="ring_mode_normal">Normale</string>
-  <string name="ring_mode_vibrate">Vibra</string>
+  <string name="ring_mode_vibrate">Vibrazione</string>
   <string name="ring_mode_mute">Silenziosa</string>
   <string name="ring_volume_title">Volume suoneria</string>
   <string name="incoming_call_volume_title">Suoneria</string>
