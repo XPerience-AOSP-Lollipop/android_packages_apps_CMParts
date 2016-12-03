@@ -184,6 +184,8 @@
   <string name="swap_volume_buttons_title">Reorientar</string>
   <string name="swap_volume_buttons_summary">Trocar os botões de volume quando a tela é girada</string>
   <string name="button_wake_title">Acorda o dispositivo</string>
+  <string name="volume_answer_call_title">Answer call</string>
+  <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
   <string name="home_answer_call_title">Responder chamada</string>
   <string name="home_answer_call_summary">Pressionar o botão home irá responder à chamada de entrada atual</string>
   <!-- Key backlight -->
