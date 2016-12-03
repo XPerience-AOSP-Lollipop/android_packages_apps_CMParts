@@ -389,9 +389,9 @@
   <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
   <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
   <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
-  <string name="status_bar_battery_style_circle">Circolare</string>
+  <string name="status_bar_battery_style_circle">Icona circolare</string>
   <string name="status_bar_battery_style_text">Testo</string>
-  <string name="status_bar_battery_style_hidden">Nascosto</string>
+  <string name="status_bar_battery_style_hidden">Nascondi icona</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
   <string name="status_bar_battery_percentage_default">Nascosta</string>
@@ -413,7 +413,7 @@
   <string name="display_rotation_enabled">Rotazione automatica attiva</string>
   <string name="display_rotation_disabled">Rotazione automatica non attiva</string>
   <string name="display_rotation_unit">gradi</string>
-  <string name="display_lockscreen_rotation_title">Ruotare schermata di blocco</string>
+  <string name="display_lockscreen_rotation_title">Ruota schermata di blocco</string>
   <string name="display_rotation_category_title">Modalità di rotazione</string>
   <string name="display_rotation_0_title">0 gradi</string>
   <string name="display_rotation_90_title">90 gradi</string>
@@ -432,7 +432,7 @@
   <string name="weather_settings_temp_celsius">Celsius</string>
   <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">meteo</string>
-  <string name="status_bar_show_weather_title">Visualizza meteo</string>
+  <string name="status_bar_show_weather_title">Mostra meteo</string>
   <string name="status_bar_show_weather_summary">Visualizzare la temperatura corrente sulla barra di stato</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Prestazioni e risparmio energetico</string>
