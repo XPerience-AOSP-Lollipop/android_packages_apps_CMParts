@@ -16,7 +16,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:cmparts="http://schemas.android.com/apk/res/org.cyanogenmod.cmparts"
     android:title="@string/pulse_settings" >
 
         <Preference
@@ -52,50 +52,50 @@
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="pulse_custom_dimen"
                 android:title="@string/pulse_custom_dimen"
-                settings:max="30"
-                settings:min="1"
-                settings:units="dp"
+                cmparts:max="30"
+                cmparts:min="1"
+                cmparts:units="dp"
                 android:dependency="pulse_fading_bars_category"/>
 
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="pulse_custom_div"
                 android:title="@string/pulse_custom_div"
-                settings:max="44"
-                settings:min="2"
-                settings:interval="2"
-                settings:units="dp"
+                cmparts:max="44"
+                cmparts:min="2"
+                cmparts:interval="2"
+                cmparts:units="dp"
                 android:dependency="pulse_fading_bars_category"/>
 
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="pulse_filled_block_size"
                 android:title="@string/pulse_filled_block_size"
-                settings:max="8"
-                settings:min="4"
-                settings:units="dp"
+                cmparts:max="8"
+                cmparts:min="4"
+                cmparts:units="dp"
                 android:dependency="pulse_fading_bars_category"/>
 
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="pulse_empty_block_size"
                 android:title="@string/pulse_empty_block_size"
-                settings:max="4"
-                settings:min="0"
-                settings:units="dp"
+                cmparts:max="4"
+                cmparts:min="0"
+                cmparts:units="dp"
                 android:dependency="pulse_fading_bars_category"/>
 
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="pulse_custom_fudge_factor"
                 android:title="@string/pulse_custom_fudge_factor"
-                settings:max="6"
-                settings:min="2"
+                cmparts:max="6"
+                cmparts:min="2"
                 android:dependency="pulse_fading_bars_category"/>
 
            <org.cyanogenmod.cmparts.widget.SeekBarPreference
                 android:key="fling_pulse_lavalamp_speed"
                 android:title="@string/lavamp_solid_speed_title"
-                settings:max="30000"
-                settings:min="200"
-                settings:interval="200"
-                settings:units="ms"
+                cmparts:max="30000"
+                cmparts:min="200"
+                cmparts:interval="200"
+                cmparts:units="ms"
                 android:dependency="pulse_fading_bars_category"/>
 	</PreferenceCategory>
 
@@ -106,17 +106,17 @@
         <org.cyanogenmod.cmparts.widget.SeekBarPreference
             android:key="pulse_solid_fudge_factor"
             android:title="@string/pulse_custom_fudge_factor"
-            settings:max="7"
-            settings:min="2"
+            cmparts:max="7"
+            cmparts:min="2"
             android:dependency="pulse_2"/>
 
         <org.cyanogenmod.cmparts.widget.SeekBarPreference
             android:key="lavamp_solid_speed"
             android:title="@string/lavamp_solid_speed_title"
-            settings:max="30000"
-            settings:min="200"
-            settings:interval="200"
-            settings:units="ms"
+            cmparts:max="30000"
+            cmparts:min="200"
+            cmparts:interval="200"
+            cmparts:units="ms"
             android:dependency="pulse_2"/>
 	</PreferenceCategory>
 
