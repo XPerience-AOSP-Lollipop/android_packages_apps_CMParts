@@ -173,21 +173,21 @@
   <string name="camera_sleep_on_release_summary">Mentiene lo schermo acceso mentre il tasto rimane premuto</string>
   <string name="camera_launch_title">Apri fotocamera</string>
   <string name="camera_launch_summary">Una pressione prolungata e rilascio apre la fotocamera</string>
-  <string name="volbtn_music_controls_title">Control playback</string>
+  <string name="volbtn_music_controls_title">Controllo riproduzione</string>
   <string name="volbtn_music_controls_summary">Seek music tracks by long-pressing the volume keys while the display is off</string>
   <string name="volbtn_cursor_control_title">Muovi cursore tastiera</string>
   <string name="volbtn_cursor_control_off">Disattivato</string>
   <string name="volbtn_cursor_control_on">Volume su/giù sposta il cursore sinistra/destra</string>
   <string name="volbtn_cursor_control_on_reverse">Volume su/giù sposta il cursore destra/sinistra</string>
   <string name="power_end_call_title">Termina chiamata</string>
-  <string name="power_end_call_summary">End the current call by pressing the power button</string>
+  <string name="power_end_call_summary">Terminare la chiamata premendo il tasto accensione/spegnimento</string>
   <string name="swap_volume_buttons_title">Inverti orientamento</string>
   <string name="swap_volume_buttons_summary">Invertire i pulsanti del volume quando lo schermo è ruotato</string>
-  <string name="button_wake_title">Wake device</string>
+  <string name="button_wake_title">Accendi schermo</string>
   <string name="volume_answer_call_title">Rispondi alla chiamata</string>
   <string name="volume_answer_call_summary">Rispondere alle chiamate premendo i tasti volume</string>
   <string name="home_answer_call_title">Rispondi alla chiamata</string>
-  <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
+  <string name="home_answer_call_summary">Rispondere alle chiamate premendo il tasto Home</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Retroilluminazione</string>
   <string name="button_backlight_enabled">Illumina tasti</string>
