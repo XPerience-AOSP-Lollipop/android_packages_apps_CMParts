@@ -174,7 +174,7 @@
   <string name="camera_launch_title">Apri fotocamera</string>
   <string name="camera_launch_summary">Una pressione prolungata e rilascio apre la fotocamera</string>
   <string name="volbtn_music_controls_title">Controllo riproduzione</string>
-  <string name="volbtn_music_controls_summary">Seek music tracks by long-pressing the volume keys while the display is off</string>
+  <string name="volbtn_music_controls_summary">Scorrere le tracce musicali tenendo premuti i tasti volume a schermo spento</string>
   <string name="volbtn_cursor_control_title">Muovi cursore tastiera</string>
   <string name="volbtn_cursor_control_off">Disattivato</string>
   <string name="volbtn_cursor_control_on">Volume su/giù sposta il cursore sinistra/destra</string>
