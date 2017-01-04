@@ -39,10 +39,10 @@
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privacidad</string>
   <!-- Privacy Guard -->
-  <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
-  <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
-  <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
-  <string name="privacy_guard_dlg_system_app_text">When enabling Privacy Guard for a built-in app, the app will not be able to access or provide personal data. This may cause other apps to misbehave.</string>
+  <string name="privacy_guard_switch_label">Activar Privacy Guard</string>
+  <string name="privacy_guard_dlg_title">¿Habilitar Privacy Guard?</string>
+  <string name="privacy_guard_dlg_text">Cuando la protección de privacidad está activado, la aplicación no podrá acceder a datos personales como contactos, mensajes o registros de llamadas.</string>
+  <string name="privacy_guard_dlg_system_app_text">Al activar la Protección de Privacidad para una aplicación incorporada, la aplicación no podrá acceder o proveer datos personales. Esto puede causar fallos en otras aplicaciones.</string>
   <string name="privacy_guard_default_title">Enabled by default</string>
   <string name="privacy_guard_default_summary_on">Privacy Guard is enabled</string>
   <string name="privacy_guard_default_summary">Enable by default for newly-installed apps</string>
