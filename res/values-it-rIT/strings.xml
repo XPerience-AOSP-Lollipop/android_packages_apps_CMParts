@@ -449,7 +449,7 @@
   <string name="auto_power_save_summary_off">Non attivare la modalità risparmio energetico automaticamente</string>
   <string name="app_perf_profiles_title">Ottimizzazione automatica</string>
   <string name="app_perf_profiles_summary">Scegliere automaticamente un profilo prestazioni in base ad applicazioni e utilizzo</string>
-  <string name="auto_power_save_never">Never</string>
+  <string name="auto_power_save_never">Mai</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Desktop esteso</string>
   <string name="expanded_desktop_settings_summary">Espandere lo spazio desktop nascondendo la barra di stato, la barra di navigazione o entrambi</string>
