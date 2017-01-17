@@ -180,12 +180,12 @@
   <string name="volbtn_cursor_control_on">Volumen arriba/abajo mueve el cursor hacia la izquierda/derecha</string>
   <string name="volbtn_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor hacia la derecha/izquierda</string>
   <string name="power_end_call_title">Finalizar llamada</string>
-  <string name="power_end_call_summary">End the current call by pressing the power button</string>
-  <string name="swap_volume_buttons_title">Reorient</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-  <string name="button_wake_title">Wake device</string>
-  <string name="volume_answer_call_title">Answer call</string>
-  <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
+  <string name="power_end_call_summary">Finalizar la llamada actual pulsando el botón de encendido</string>
+  <string name="swap_volume_buttons_title">Reorientar</string>
+  <string name="swap_volume_buttons_summary">Intercambiar botones de volumen cuando se gira la pantalla</string>
+  <string name="button_wake_title">Despertar dispositivo</string>
+  <string name="volume_answer_call_title">Responder llamada</string>
+  <string name="volume_answer_call_summary">Contestar llamadas entrantes presionando los botones de volumen</string>
   <string name="home_answer_call_title">Answer call</string>
   <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
   <!-- Key backlight -->
