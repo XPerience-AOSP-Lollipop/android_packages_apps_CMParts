@@ -29,8 +29,7 @@ import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 
 import cyanogenmod.preference.CMSystemSettingListPreference;
 
-public class StatusBarSettings extends SettingsPreferenceFragment
-        implements OnPreferenceChangeListener {
+public class StatusBarSettings extends SettingsPreferenceFragment {
 
     private static final String TAG = "StatusBar";
 
