@@ -385,18 +385,6 @@
   <string name="status_bar_am_pm_normal">Normale</string>
   <string name="status_bar_am_pm_small">Piccolo</string>
   <string name="status_bar_am_pm_hidden">Nascosto</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
-  <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
-  <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
-  <string name="status_bar_battery_style_circle">Icona circolare</string>
-  <string name="status_bar_battery_style_text">Testo</string>
-  <string name="status_bar_battery_style_hidden">Nascondi icona</string>
-  <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
-  <string name="status_bar_battery_percentage_default">Nascosta</string>
-  <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
-  <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icone della barra di stato</string>
   <string name="status_bar_icons_summary">Controlla quali icone della barra di stato vengono visualizzate</string>
