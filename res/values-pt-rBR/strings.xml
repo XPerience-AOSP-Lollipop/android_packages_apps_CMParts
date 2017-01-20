@@ -385,18 +385,6 @@
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Pequeno</string>
   <string name="status_bar_am_pm_hidden">Escondido</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Estilo de status da bateria</string>
-  <string name="status_bar_battery_style_icon_portrait">Retrato do ícone</string>
-  <string name="status_bar_battery_style_icon_landscape">Paisagem do ícone</string>
-  <string name="status_bar_battery_style_circle">Círculo</string>
-  <string name="status_bar_battery_style_text">Texto</string>
-  <string name="status_bar_battery_style_hidden">Escondido</string>
-  <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
-  <string name="status_bar_battery_percentage_default">Escondido</string>
-  <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-  <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_icons_summary">Controle quais ícones da barra de status são mostrados</string>
