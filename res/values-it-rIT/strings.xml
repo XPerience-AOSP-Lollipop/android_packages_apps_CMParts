@@ -317,7 +317,6 @@
   <string name="choose_soundtone">Scegli tono di notifica</string>
   <string name="choose_ringtone">Scegli suoneria</string>
   <string name="ringtone_title">Suoneria telefono</string>
-  <string name="ringtone_summary">""</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <string name="soundtone_title">Tono di notifica</string>
   <!-- Title for application group setting screen -->
