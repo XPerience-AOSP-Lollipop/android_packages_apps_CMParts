@@ -374,11 +374,6 @@
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_style_title">Estilo do relógio</string>
-  <string name="status_bar_clock_style_right">Direita</string>
-  <string name="status_bar_clock_style_left">Esquerda</string>
-  <string name="status_bar_clock_style_center">Centro</string>
-  <string name="status_bar_clock_style_hidden">Escondido</string>
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O relógio 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
@@ -432,7 +427,6 @@
   <string name="power_save_title">Economia de energia extrema</string>
   <string name="power_save_summary">Restringir a atividade de desempenho e plano de fundo de dispositivo para economizar energia</string>
   <string name="auto_power_save_title">Economia de energia automática</string>
-  <string name="auto_power_save_summary_on">Ativar automaticamente o modo de bateria de %d por cento de economia de energia</string>
   <string name="auto_power_save_summary_off">Não habilite o modo de economia de energia automaticamente</string>
   <string name="app_perf_profiles_title">Otimização automática</string>
   <string name="app_perf_profiles_summary">Automaticamente, escolha um perfil de desempenho adequado para aplicativos e padrões de uso</string>
@@ -447,4 +441,5 @@
   <string name="expanded_desktop_style_hide_navigation">Ocultar a barra de navegação</string>
   <string name="expanded_desktop_style_hide_both">Esconder os dois</string>
   <string name="expanded_desktop_nothing_to_show_text">Desligue o switch para personalizar a área de trabalho expandida por aplicativo</string>
+  <!-- Sounds: Charging sounds -->
 </resources>
