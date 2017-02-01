@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,51 +16,72 @@
  */
 package org.cyanogenmod.cmparts.statusbar;
 
-import android.content.ContentResolver;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.format.DateFormat;
 import android.view.View;
 
+import cyanogenmod.preference.CMSystemSettingListPreference;
+
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 
+<<<<<<< HEAD
 import cyanogenmod.preference.CMSystemSettingListPreference;
 
 public class StatusBarSettings extends SettingsPreferenceFragment {
-
-    private static final String TAG = "StatusBar";
+=======
+public class StatusBarSettings extends SettingsPreferenceFragment
+        implements OnPreferenceChangeListener {
+>>>>>>> b101045... CMParts: Clean up status bar settings class
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
+<<<<<<< HEAD
     private CMSystemSettingListPreference mStatusBarClock;
     private CMSystemSettingListPreference mStatusBarAmPm;
     private CMSystemSettingListPreference mQuickPulldown;
+=======
+    private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
+    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
+
+    private CMSystemSettingListPreference mQuickPulldown;
+    private CMSystemSettingListPreference mStatusBarClock;
+    private CMSystemSettingListPreference mStatusBarAmPm;
+    private CMSystemSettingListPreference mStatusBarBattery;
+    private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
+>>>>>>> b101045... CMParts: Clean up status bar settings class
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
-        ContentResolver resolver = getActivity().getContentResolver();
-
         mStatusBarClock = (CMSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
+<<<<<<< HEAD
         mStatusBarAmPm = (CMSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         mQuickPulldown = (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+=======
+        mStatusBarBatteryShowPercent =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+>>>>>>> b101045... CMParts: Clean up status bar settings class
 
+        mStatusBarAmPm = (CMSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         if (DateFormat.is24HourFormat(getActivity())) {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
         }
 
+        mStatusBarBattery =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
 
+        mQuickPulldown =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
     }
@@ -67,13 +89,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        // Adjust clock position for RTL if necessary
-        Configuration config = getResources().getConfiguration();
-        if (config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-                mStatusBarClock.setEntries(getActivity().getResources().getStringArray(
-                        R.array.status_bar_clock_position_entries_rtl));
 
-                mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
         }
     }
 
@@ -85,17 +105,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
         } else if (preference == mStatusBarBattery) {
             enableStatusBarBatteryDependents(value);
         }
-
         return true;
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
-                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
-            mStatusBarBatteryShowPercent.setEnabled(false);
-        } else {
-            mStatusBarBatteryShowPercent.setEnabled(true);
-        }
+        mStatusBarBatteryShowPercent.setEnabled(
+                batteryIconStyle != STATUS_BAR_BATTERY_STYLE_HIDDEN
+                && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
     private void updateQuickPulldownSummary(int value) {
