@@ -382,9 +382,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icone della barra di stato</string>
   <string name="status_bar_icons_summary">Controlla quali icone della barra di stato vengono visualizzate</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Doppio tocco spegne schermo</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">App protette</string>
   <string name="protected_apps_manager_summary">Gestisci le app nascoste da un blocco di sicurezza</string>
@@ -442,4 +439,5 @@
   <string name="expanded_desktop_style_hide_both">Nascondi entrambi</string>
   <string name="expanded_desktop_nothing_to_show_text">Disattivare per personalizzare il desktop esteso per le singole app</string>
   <!-- Sounds: Charging sounds -->
+  <!-- Gestures: Touchscreen gestures -->
 </resources>
