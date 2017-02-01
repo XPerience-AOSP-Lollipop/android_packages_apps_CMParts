@@ -56,7 +56,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
         }
-        updatePulldownSummary(mQuickPulldown.getIntValue(0));
+
+        mStatusBarBattery.setOnPreferenceChangeListener(this);
+        enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
+
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
     }
 
     @Override
@@ -71,17 +76,30 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
         }
     }
 
-    private void updatePulldownSummary(int value) {
-        Resources res = getResources();
-
-        if (value == 0) {
-            // quick pulldown deactivated
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
-        } else {
-            String direction = res.getString(value == 2
-                    ? R.string.status_bar_quick_qs_pulldown_summary_left
-                    : R.string.status_bar_quick_qs_pulldown_summary_right);
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        int value = Integer.parseInt((String) newValue);
+        if (preference == mQuickPulldown) {
+            updateQuickPulldownSummary(value);
+        } else if (preference == mStatusBarBattery) {
+            enableStatusBarBatteryDependents(value);
         }
+
+        return true;
+    }
+
+    private void enableStatusBarBatteryDependents(int batteryIconStyle) {
+        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
+                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
+            mStatusBarBatteryShowPercent.setEnabled(false);
+        } else {
+            mStatusBarBatteryShowPercent.setEnabled(true);
+        }
+    }
+
+    private void updateQuickPulldownSummary(int value) {
+        mQuickPulldown.setSummary(value == 0
+                ? R.string.status_bar_quick_qs_pulldown_off
+                : R.string.status_bar_quick_qs_pulldown_summary);
     }
 }
