@@ -98,8 +98,29 @@
   <string name="notification_light_use_multiple_leds">Múltiples LEDs</string>
   <string name="keywords_lights_brightness_level">atenuar brillo de leds</string>
   <string name="notification_light_automagic">Elegir colores automáticamente</string>
+  <string name="notification_light_automagic_summary">Selección automática de colores</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Ajustes de luz</string>
+  <string name="led_notification_text">Luz LED habilitada por configuración</string>
+  <string name="notification_light_no_apps_summary">Para añadir control por aplicación, activa \'%1$s\' y pulsa \'\u002b\' en la barra de menús</string>
   <!-- LiveDisplay -->
+  <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
+  <string name="live_display_mode">Modo de pantalla</string>
+  <string name="live_display_color_temperature_title">Temperatura de color</string>
+  <string name="live_display_day">Día</string>
+  <string name="live_display_night">Noche</string>
+  <string name="live_display_outdoor_mode_title">Modo automático al aire libre</string>
+  <string name="live_display_outdoor_mode_summary">Aumentar el brillo y la saturación automáticamente bajo la luz del sol</string>
+  <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+  <string name="live_display_low_power_summary">Ajustar la pantalla para un consumo de energía más bajo sin degradación</string>
+  <string name="live_display_enhance_color_title">Mejorar colores</string>
+  <string name="live_display_enhance_color_summary">Mejorar la viveza de color de tonos de piel, paisajes y otras imágenes</string>
+  <string name="live_display_color_profile_title">Perfil de color</string>
+  <string name="live_display_color_profile_standard_title">Estándar</string>
+  <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+  <string name="live_display_color_profile_natural_title">Natural</string>
+  <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+  <string name="live_display_color_profile_dynamic_title">Dinámico</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
   <string name="hardware_keys_home_key_title">Botón de inicio</string>
