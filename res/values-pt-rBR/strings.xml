@@ -174,7 +174,6 @@
   <string name="camera_launch_title">Abrir câmera</string>
   <string name="camera_launch_summary">Uma longa pressão abrirá a câmera</string>
   <string name="volbtn_music_controls_title">Controle de reprodução</string>
-  <string name="volbtn_music_controls_summary">Procurar músicas utilizando as teclas de volume, enquanto a tela estiver desligada</string>
   <string name="volbtn_cursor_control_title">Controle do cursor do teclado</string>
   <string name="volbtn_cursor_control_off">Desabilitado</string>
   <string name="volbtn_cursor_control_on">Volume para cima/para baixo move o cursor para a esquerda/direita</string>
@@ -368,8 +367,6 @@
   <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <string name="status_bar_quick_qs_pulldown_title">Deslocamento rápido</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s borda da barra de status puxa para baixo Configurações rápidas</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Esquerda</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Direita</string>
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
