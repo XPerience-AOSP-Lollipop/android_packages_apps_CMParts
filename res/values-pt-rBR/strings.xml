@@ -174,7 +174,6 @@
   <string name="camera_launch_title">Abrir câmera</string>
   <string name="camera_launch_summary">Uma longa pressão abrirá a câmera</string>
   <string name="volbtn_music_controls_title">Controle de reprodução</string>
-  <string name="volbtn_music_controls_summary">Procurar músicas utilizando as teclas de volume, enquanto a tela estiver desligada</string>
   <string name="volbtn_cursor_control_title">Controle do cursor do teclado</string>
   <string name="volbtn_cursor_control_off">Desabilitado</string>
   <string name="volbtn_cursor_control_on">Volume para cima/para baixo move o cursor para a esquerda/direita</string>
@@ -368,17 +367,10 @@
   <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <string name="status_bar_quick_qs_pulldown_title">Deslocamento rápido</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s borda da barra de status puxa para baixo Configurações rápidas</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Esquerda</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Direita</string>
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_style_title">Estilo do relógio</string>
-  <string name="status_bar_clock_style_right">Direita</string>
-  <string name="status_bar_clock_style_left">Esquerda</string>
-  <string name="status_bar_clock_style_center">Centro</string>
-  <string name="status_bar_clock_style_hidden">Escondido</string>
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O relógio 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
@@ -387,9 +379,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_icons_summary">Controle quais ícones da barra de status são mostrados</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dê um duplo toque para dormir</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dê um duplo toque na barra de status para desligar o display</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicativos protegidos</string>
   <string name="protected_apps_manager_summary">Gerenciar os aplicativos que estão escondidos atrás de um fechamento seguro</string>
@@ -432,7 +421,6 @@
   <string name="power_save_title">Economia de energia extrema</string>
   <string name="power_save_summary">Restringir a atividade de desempenho e plano de fundo de dispositivo para economizar energia</string>
   <string name="auto_power_save_title">Economia de energia automática</string>
-  <string name="auto_power_save_summary_on">Ativar automaticamente o modo de bateria de %d por cento de economia de energia</string>
   <string name="auto_power_save_summary_off">Não habilite o modo de economia de energia automaticamente</string>
   <string name="app_perf_profiles_title">Otimização automática</string>
   <string name="app_perf_profiles_summary">Automaticamente, escolha um perfil de desempenho adequado para aplicativos e padrões de uso</string>
@@ -447,4 +435,6 @@
   <string name="expanded_desktop_style_hide_navigation">Ocultar a barra de navegação</string>
   <string name="expanded_desktop_style_hide_both">Esconder os dois</string>
   <string name="expanded_desktop_nothing_to_show_text">Desligue o switch para personalizar a área de trabalho expandida por aplicativo</string>
+  <!-- Sounds: Charging sounds -->
+  <!-- Gestures: Touchscreen gestures -->
 </resources>
