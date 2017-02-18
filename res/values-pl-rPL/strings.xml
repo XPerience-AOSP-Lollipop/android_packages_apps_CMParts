@@ -16,6 +16,20 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cmparts_title">Ustawienia XPerience™</string>
+  <string name="loading">Wczytywanie…</string>
+  <string name="dlg_ok">OK</string>
+  <string name="cancel">Anuluj</string>
+  <string name="add">Dodaj</string>
+  <string name="choose_app">Wybierz aplikację</string>
+  <string name="reset">Resetuj</string>
+  <string name="advanced">Zaawansowane</string>
+  <string name="settings">Ustawienia</string>
+  <string name="name">Nazwa</string>
+  <string name="back">Wstecz</string>
+  <string name="finish">Zakończ</string>
+  <string name="next">Następny</string>
+  <string name="on">Włącz</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <!-- Notification light dialogs -->
