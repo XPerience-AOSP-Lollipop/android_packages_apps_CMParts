@@ -368,15 +368,17 @@
   <string name="doze_title">Pantalla ambiente</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra de estado</string>
-  <string name="status_bar_toggle_brightness">Control de brillo</string>
-  <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando el dedo en la barra de estado</string>
-  <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
-  <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
   <string name="status_bar_quick_qs_pulldown_title">Desplegado rápido</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s borde de la barra de estado desliza hacia abajo para acceder a los ajustes rápidos</string>
   <string name="status_bar_quick_qs_pulldown_off">Apagar</string>
   <string name="status_bar_quick_qs_pulldown_left">Izquierda</string>
   <string name="status_bar_quick_qs_pulldown_right">Derecha</string>
+  <string name="status_bar_toggle_brightness">Control de brillo</string>
+  <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando el dedo en la barra de estado</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Iconos de la barra de estado</string>
+  <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
+  <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Posición del reloj</string>
   <string name="status_bar_clock_position_right">Derecha</string>
@@ -387,6 +389,7 @@
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Pequeño</string>
   <string name="status_bar_am_pm_hidden">Oculto</string>
+  <!-- Status bar - Battery -->
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Iconos de la barra de estado</string>
   <string name="status_bar_icons_summary">Controlar qué iconos de la barra de estado se muestran</string>
