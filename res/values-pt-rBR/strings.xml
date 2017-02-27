@@ -361,21 +361,24 @@
   <string name="doze_title">Ecrã de ambiente</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra de status</string>
-  <string name="status_bar_toggle_brightness">Controle de brilho</string>
-  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>
-  <string name="status_bar_notif_count_title">Mostrar a contagem de notificação</string>
-  <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <string name="status_bar_quick_qs_pulldown_title">Deslocamento rápido</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s borda da barra de status puxa para baixo Configurações rápidas</string>
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
+  <string name="status_bar_toggle_brightness">Controle de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Ícones da barra de status</string>
+  <string name="status_bar_notif_count_title">Mostrar a contagem de notificação</string>
+  <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O relógio 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Pequeno</string>
   <string name="status_bar_am_pm_hidden">Escondido</string>
+  <!-- Status bar - Battery -->
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_icons_summary">Controle quais ícones da barra de status são mostrados</string>
