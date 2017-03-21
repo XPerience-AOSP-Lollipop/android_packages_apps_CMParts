@@ -32,6 +32,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+    private static final int PULLDOWN_DIR_NONE = 0;
+    private static final int PULLDOWN_DIR_RIGHT = 1;
+    private static final int PULLDOWN_DIR_LEFT = 2;
 
     private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mStatusBarClock;
@@ -77,8 +80,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     }
 
     private void updateQuickPulldownSummary(int value) {
-        mQuickPulldown.setSummary(value == 0
-                ? R.string.status_bar_quick_qs_pulldown_off
-                : R.string.status_bar_quick_qs_pulldown_summary);
+        String summary="";
+        switch (value) {
+            case PULLDOWN_DIR_NONE:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_off);
+                break;
+
+            case PULLDOWN_DIR_LEFT:
+            case PULLDOWN_DIR_RIGHT:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_summary,
+                    getResources().getString(value == PULLDOWN_DIR_LEFT
+                        ? R.string.status_bar_quick_qs_pulldown_summary_left
+                        : R.string.status_bar_quick_qs_pulldown_summary_right));
+                break;
+        }
+        mQuickPulldown.setSummary(summary);
     }
 }
