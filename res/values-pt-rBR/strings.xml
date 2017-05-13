@@ -366,8 +366,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
-  <string name="status_bar_toggle_brightness">Controle de brilho</string>
-  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_notif_count_title">Mostrar a contagem de notificação</string>
@@ -379,6 +377,9 @@
   <string name="status_bar_am_pm_small">Pequeno</string>
   <string name="status_bar_am_pm_hidden">Escondido</string>
   <!-- Status bar - Battery -->
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_toggle_brightness">Controle de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_icons_summary">Controle quais ícones da barra de status são mostrados</string>
