@@ -70,8 +70,30 @@
   <string name="pulse_length_normal">Standardowe</string>
   <string name="pulse_length_long">Długie</string>
   <string name="pulse_length_very_long">Bardzo długie</string>
+  <string name="pulse_speed_very_fast">Bardzo szybko</string>
+  <string name="pulse_speed_fast">Szybko</string>
+  <string name="pulse_speed_normal">Standardowo</string>
+  <string name="pulse_speed_slow">Wolno</string>
+  <string name="pulse_speed_very_slow">Bardzo wolno</string>
   <!-- Battery light settings -->
+  <string name="battery_light_title">Dioda baterii</string>
+  <string name="battery_low_pulse_title">Pulsowanie przy niskim poziomie baterii</string>
+  <string name="battery_light_list_title">Kolory</string>
+  <string name="battery_light_low_color_title">Bateria rozładowana</string>
+  <string name="battery_light_medium_color_title">Ładowanie</string>
+  <string name="battery_light_full_color_title">Naładowana (90%)</string>
+  <string name="battery_light_really_full_color_title">Naładowana (100%)</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Dioda powiadomień</string>
+  <string name="notification_light_general_title">Ogólne</string>
+  <string name="notification_light_advanced_title">Zaawansowane</string>
+  <string name="notification_light_applist_title">Aplikacje</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Wartości niestandardowe</string>
+  <string name="notification_light_default_value">Wartości domyślene</string>
+  <string name="notification_light_missed_call_title">Nieodebrane połączenie</string>
+  <string name="notification_light_voicemail_title">Poczta głosowa</string>
+  <string name="notification_light_automagic">Wybierz kolory automatycznie</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_color_profile_cinema_title">Kino</string>
