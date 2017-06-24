@@ -70,10 +70,60 @@
   <string name="pulse_length_normal">Normal</string>
   <string name="pulse_length_long">Uzun</string>
   <string name="pulse_length_very_long">Çok uzun</string>
+  <string name="pulse_speed_very_fast">Çok hızlı</string>
+  <string name="pulse_speed_fast">Hızlı</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Yavaş</string>
+  <string name="pulse_speed_very_slow">Çok yavaş</string>
   <!-- Battery light settings -->
+  <string name="battery_light_title">Pil Işığı</string>
+  <string name="battery_low_pulse_title">Pil zayıfsa yanıp sön</string>
+  <string name="battery_light_list_title">Renkler</string>
+  <string name="battery_light_low_color_title">Pil düşük</string>
+  <string name="battery_light_medium_color_title">Şarj oluyor</string>
+  <string name="battery_light_full_color_title">Şarj (%90)</string>
+  <string name="battery_light_really_full_color_title">Şarj (% 100)</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Bildirim Işığı</string>
+  <string name="notification_light_general_title">Genel</string>
+  <string name="notification_light_advanced_title">Gelişmiş</string>
+  <string name="notification_light_applist_title">Uygulamalar</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Özel değerleri kullan</string>
+  <string name="notification_light_default_value">Varsayılan</string>
+  <string name="notification_light_missed_call_title">Cevapsız çağrı</string>
+  <string name="notification_light_voicemail_title">Sesli mesaj</string>
+  <string name="notification_light_screen_on">Ekran açıkken yanar</string>
+  <string name="notification_light_zen_mode">Rahatsız Etmeyin Modunda ışıklar</string>
+  <string name="notification_light_use_multiple_leds">Çoklu LED\'ler</string>
+  <string name="keywords_lights_brightness_level">sönük led parlaklığı</string>
+  <string name="notification_light_automagic">Renkleri otomatik olarak seç</string>
+  <string name="notification_light_automagic_summary">Otomatik renk seçimi</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Işık ayarları</string>
+  <string name="led_notification_text">LED ışıkları ayarlardan etkin</string>
+  <string name="notification_light_no_apps_summary">Uygulama denetimi eklemek için \'%1$s\' etkinleştirin ve menü çubuğu üzerindeki \'\u002b\' basın</string>
   <!-- LiveDisplay -->
+  <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
+  <string name="live_display_mode">Görüntü modu</string>
+  <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
+  <string name="live_display_color_temperature_summary">Gün: <xliff:g id="day_temperature">%1$d </xliff:g> K gece: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g> K</string>
+  <string name="live_display_day">Gün</string>
+  <string name="live_display_night">Gece</string>
+  <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
+  <string name="live_display_outdoor_mode_summary">Parlaklığını ve doygunluğunu parlak güneş ışığı altında otomatik olarak artırma</string>
+  <string name="live_display_low_power_title">Güç tüketimini azalt</string>
+  <string name="live_display_low_power_summary">Ekranda bozulma olmadan en düşük güç tüketimi için ayarlar</string>
+  <string name="live_display_enhance_color_title">Renkleri geliştir</string>
+  <string name="live_display_enhance_color_summary">Ten tonları, sahne ve diğer görüntülerin renk titreşimini geliştirir</string>
+  <string name="live_display_color_profile_title">Renk profili</string>
+  <string name="live_display_color_profile_standard_title">Standart</string>
+  <string name="live_display_color_profile_standard_summary">Doğru renkler ve parlak beyazlar</string>
+  <string name="live_display_color_profile_natural_title">Doğal</string>
+  <string name="live_display_color_profile_natural_summary">Gerçekçi renkler ve taze tonlar</string>
+  <string name="live_display_color_profile_dynamic_title">Dinamik</string>
+  <string name="live_display_color_profile_dynamic_summary">Gelişmiş renkler ve parlak beyazlar</string>
   <string name="live_display_color_profile_cinema_title">Sinema</string>
   <string name="live_display_color_profile_cinema_summary">Videolar için harika renk üretimi</string>
   <string name="live_display_color_profile_astronomy_title">Astronomi</string>
@@ -126,10 +176,60 @@
   <string name="hardware_keys_action_single_handed_left">Tek el modu (sol)</string>
   <string name="hardware_keys_action_single_handed_right">Tek el modu (sağ)</string>
   <string name="camera_sleep_on_release_title">Ekrana göz atma</string>
+  <string name="camera_sleep_on_release_summary">Sadece buton basılı tutulduğunda yarım basma ekranı açık tutacaktır</string>
+  <string name="camera_launch_title">Kamerayı başlat</string>
+  <string name="camera_launch_summary">Uzun basıp bırakma kamerayı başlatacak</string>
+  <string name="volbtn_music_controls_title">Müzik kontrolü</string>
+  <string name="volbtn_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak müziği değiştirin</string>
+  <string name="volbtn_cursor_control_title">Klavye imleç kontrolü</string>
+  <string name="volbtn_cursor_control_off">Devre dışı</string>
+  <string name="volbtn_cursor_control_on">Ses yukarı/aşağı imleci sol/sağa kaydırır</string>
+  <string name="volbtn_cursor_control_on_reverse">Ses açma/kapama imleci sağa/sola hareket ettirir</string>
+  <string name="power_end_call_title">Çağrıyı Sonlandır</string>
+  <string name="power_end_call_summary">Güç tuşuna basmak mevcut çağrıyı sonlandırır</string>
+  <string name="swap_volume_buttons_title">Yeniden ata</string>
+  <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
+  <string name="button_wake_title">Cihazı uyandır</string>
+  <string name="volume_answer_call_title">Çağrıyı cevapla</string>
+  <string name="volume_answer_call_summary">Ses tuşlarına basarak gelen aramaları cevaplayın</string>
+  <string name="home_answer_call_title">Çağrıyı cevapla</string>
+  <string name="home_answer_call_summary">Ev tuşuna basarak gelen aramaları cevapla</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">Arka ışık</string>
+  <string name="button_backlight_enabled">Tuşları aydınlat</string>
+  <string name="keyboard_backlight_enabled">Klavyeyi aydınlat</string>
+  <string name="button_backlight_seekbar_title">Buton parlaklığı</string>
+  <string name="keyboard_backlight_seekbar_title">Klavye parlaklığı</string>
+  <string name="backlight_timeout_title">Aydınlatma zaman aşımı</string>
+  <string name="backlight_timeout_unlimited">Kapatma</string>
+  <string name="backlight_summary_disabled">Devre dışı</string>
+  <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout"> %s </xliff:g> için etkin</string>
+  <string name="backlight_summary_enabled">Etkin</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">Dolaşım çubuğunu etkinleştir</string>
+  <string name="disable_navkeys_summary">Ekran üstü dolaşım çubuğunu etkinleştir ve donanımsal butonları devre dışı bırak</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">Gezinme çubuğu</string>
+  <string name="navigation_bar_title">Tuşlar ve düzen</string>
+  <string name="navigation_bar_left_title">Solak modu</string>
+  <string name="navigation_bar_left_summary">Dolaşım çubuğunu yatay modda sola yerleştir</string>
+  <string name="navigation_bar_arrow_keys_title">Yazı yazarken ok tuşlarını göster</string>
+  <string name="navigation_bar_arrow_keys_summary">Yazarken sol ve sağ imleç düğmelerini göster. Klavye değiştiriciyi geçersiz kılar.</string>
+  <string name="navigation_bar_home_long_press_title">Ev tuşu uzun basma eylemi</string>
+  <string name="navigation_bar_home_double_tap_title">Ev tuşu çift tıklama eylemi</string>
+  <string name="navigation_bar_recents_title">Son uygulamalar tuşu uzun basma eylemi</string>
   <!-- Power menu -->
+  <string name="power_menu_title">Güç Menüsü</string>
+  <string name="power_menu_reboot_title">Yeniden başlat menüsü</string>
+  <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
+  <string name="power_menu_airplane_title">Uçak modu</string>
+  <string name="power_menu_users_title">Kullanıcı değiştir</string>
+  <string name="power_menu_settings_title">Ayarlar kısayolu</string>
+  <string name="power_menu_lockdown_title">Cihaz kilitleme</string>
+  <string name="power_menu_bug_report_title">Hata raporu</string>
+  <string name="power_menu_sound_title">Ses paneli</string>
+  <string name="power_menu_bug_report_disabled">Hata raporlama geliştirici ayarlarında devre dışı bırakıldı</string>
+  <string name="volume_keys_control_ring_stream_title">Zil sesini kontrol et</string>
   <string name="volume_keys_control_ring_stream_summary_on">Ses tuşları zil sesi düzeyini kontrol eder</string>
   <string name="volume_keys_control_ring_stream_summary_off">Ses tuşları medya düzeyini kontrol eder</string>
   <string name="camera_double_tap_power_gesture_title">Kamera için güç tuşuna iki kez basın</string>
@@ -184,21 +284,71 @@
   <string name="profile_remove_current_profile">Geçerli profil silinemez!</string>
   <string name="profile_app_group_category_title">Bildirimleri geçersiz kıl</string>
   <string name="profile_app_group_item_instructions">Grupları ekle veya kaldır</string>
+  <string name="profile_app_group_item_instructions_summary">Grup ekleme / kaldırma bildirimi bu profilin uygulama gruplarını geçersiz kılar</string>
   <!-- Profile mode options. -->
+  <string name="profile_entries_on">Açık</string>
+  <string name="profile_entries_off">Kapalı</string>
+  <string name="profile_entries_no_override">Değişiklik yok</string>
   <!-- Add Profile -->
+  <string name="profile_name_title">İsim</string>
+  <string name="new_profile_name">&lt;yeni profil&gt;</string>
   <!-- Rename Dialog  -->
+  <string name="rename_dialog_title">Yeniden adlandır</string>
+  <string name="rename_dialog_message">Yeni isim girin</string>
+  <string name="rename_dialog_hint">Profil adı girin</string>
   <!-- Reset Profiles -->
+  <string name="profile_reset_title">Sıfırla</string>
+  <string name="profile_reset_message">Kullanıcı tarafından oluşturulan tüm profiller ve uygulama grupları silinip varsayılana dönülsün mü?</string>
   <!-- Delete confimation messages -->
+  <string name="profile_app_delete_confirm">Bu uygulamayı sil?</string>
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="profile_volumeoverrides_title">Ses düzeyi değişimleri</string>
+  <string name="connection_state_enabled">Etkinleştir</string>
+  <string name="volume_override_summary">%1$s/%2$s ayarla</string>
+  <string name="profile_volume_override_checkbox_label">Ses düzeyini değiştir</string>
   <!-- Menu item for managing profiles -->
+  <string name="profile_profiles_manage">Profiller</string>
+  <string name="profile_profile_manage">Profili yönet</string>
+  <string name="profile_appgroups_manage">Uygulama grupları</string>
+  <string name="profile_appgroup_manage">Uygulama grubunu yönet</string>
   <!-- Profile settings screen, section header for settings related to notification profiles -->
+  <string name="profile_settings">Profil ayarları</string>
+  <string name="profile_trigger_connect">Bağlantıda</string>
+  <string name="profile_trigger_disconnect">Bağlantı kesildiğinde</string>
+  <string name="profile_trigger_notrigger">Tetikleyici yok</string>
   <!-- Profile Settings sound modes labels -->
+  <string name="sound_mode">Bildirim modu</string>
+  <string name="ringer_mode">Zil sesi modu</string>
+  <string name="lights_mode">Işık modu</string>
+  <string name="vibrate_mode">Titreşim modu</string>
+  <string name="choose_soundtone">Bildirim tonunu seçin</string>
+  <string name="choose_ringtone">Zil sesini seç</string>
+  <string name="ringtone_title">Zil Sesi</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+  <string name="soundtone_title">Bildirim tonu</string>
   <!-- Title for application group setting screen -->
+  <string name="profile_appgroups_title">Uygulama grupları</string>
+  <string name="profile_applist_title">Uygulamalar</string>
+  <string name="profile_new_appgroup">Yeni uygulama grubu</string>
+  <string name="profile_delete_appgroup">Uygulama grubu silinsin mi?</string>
+  <string name="profile_appgroup_name_prompt">Uygulama grubuna yeni bir isim verin</string>
+  <string name="profile_appgroup_name_title">İsim</string>
+  <string name="duplicate_appgroup_name">Tekrarlayan uygulama grup ismi!</string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Uygulama seç</string>
   <!-- Profiles - system settings -->
+  <string name="profile_system_settings_title">Sistem ayarları</string>
+  <string name="profile_lockmode_title">Kilit ekranı modu</string>
+  <string name="profile_lockmode_policy_disabled_summary">Bu profil, bir cihaz yönetici politikası tarafından devre dışı bırakıldı</string>
+  <string name="profile_lockmode_insecure_summary">PIN veya şifre sorma</string>
+  <string name="profile_lockmode_disabled_summary">Kilit ekranını devre dışı bırak</string>
+  <string name="profile_airplanemode_title">Uçak modu</string>
+  <string name="profile_brightness_title">Ekran parlaklığı</string>
+  <string name="profile_brightness_override_summary">%1$d%% ayarlandı</string>
+  <string name="profile_brightness_override_checkbox_label">Parlaklığı geçersiz kıl</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Taşınabilir Wi\u2011Fi bağlantı noktası</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
@@ -250,13 +400,105 @@
   <string name="status_bar_battery_title">Pil göstergesi</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
+  <string name="status_bar_toggle_brightness_summary">Durum çubuğu üzerinde kaydırarak parlaklığı ayarla</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Durum çubuğu simgeleri</string>
+  <string name="status_bar_icons_summary">Hangi durum çubuğu simgelerinin gösterildiğini kontrol edin</string>
   <!-- Protected apps -->
+  <string name="protected_apps_manager_title">Korunan uygulamalar</string>
+  <string name="protected_apps_manager_summary">Güvenli kilidin arkasında hangi uygulamaların gizleneceğini yönetin</string>
+  <string name="traffic_category">Trafik göstergeleri</string>
   <!-- Display : Rotation  -->
+  <string name="accelerometer_title">Ekranı otomatik döndür</string>
+  <string name="display_rotation_title">Döndürme ayarları</string>
+  <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
+  <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
+  <string name="display_rotation_unit">derece</string>
+  <string name="display_lockscreen_rotation_title">Kilit ekranını döndür</string>
+  <string name="display_rotation_category_title">Rotasyon modu</string>
+  <string name="display_rotation_0_title">0 derece</string>
+  <string name="display_rotation_90_title">90 derece</string>
+  <string name="display_rotation_180_title">180 derece</string>
+  <string name="display_rotation_270_title">270 derece</string>
   <!-- Weather -->
+  <string name="weather_settings_title">Hava Durumu</string>
+  <string name="weather_settings_no_services_prompt">Yüklü hava durumu hizmet sağlayıcısı yok</string>
+  <string name="weather_settings_no_services_summary">Hava durumu güncelleştirmelerini almak için bir hava sağlayıcı yükleyin</string>
+  <string name="weather_settings_button">Sağlayıcı ayarları</string>
+  <string name="weather_settings_activity_not_found">Bu sağlayıcının ayarlar menüsü açılamadı</string>
+  <string name="weather_settings_add_weather_provider">Hava durumu sağlayıcısı ekle</string>
+  <string name="weather_settings_general_settings_title">Genel</string>
+  <string name="weather_settings_providers_title">Sağlayıcılar</string>
+  <string name="weather_settings_temp_units_title">Sıcaklık birimi</string>
+  <string name="weather_settings_temp_celsius">Santigrat</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenhayt</string>
+  <string name="weather_settings_keyword">hava durumu</string>
+  <string name="status_bar_show_weather_title">Hava Durumunu Göster</string>
+  <string name="status_bar_show_weather_summary">Mevcut sıcaklığı durum çubuğunda göster</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_title">Pil tasarrufu ve performans</string>
+  <string name="perf_profile_settings_summary">Cihaz performansı ve pil tasarrufunu ayarla</string>
+  <string name="perf_profile_overview_summary">Geçerli profil: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_category_title">Cihaz performansı</string>
+  <string name="perf_profile_title">Performans profili: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_fail_toast">Bu performans profili kullanılamaz</string>
+  <string name="power_save_category_title">Pil tasarrufu</string>
+  <string name="power_save_title">Yüksek pil tasarrufu</string>
+  <string name="power_save_summary">Pil tasarrufu için aygıt performansı ve arka plan etkinliğini kısıtla</string>
+  <string name="auto_power_save_title">Otomatik pil tasarrufu</string>
+  <string name="auto_power_save_summary_on">Pil %s olduğunda pil tasarruf modunu otomatik olarak aktive et</string>
+  <string name="auto_power_save_summary_off">Pil tasarrufu modunu otomatik olarak etkinleştirme</string>
+  <string name="app_perf_profiles_title">Otomatik optimizasyon</string>
+  <string name="app_perf_profiles_summary">Uygun performans profilini çeşitli uygulamalar ve kullanım senaryoları için otomatik olarak seç</string>
+  <string name="auto_power_save_never">Hiçbir zaman</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">Genişletilmiş Masaüstü</string>
+  <string name="expanded_desktop_settings_summary">Durum çubuğu, gezinti çubuğu veya her ikisini gizleme tarafından kullanılabilen masaüstü alanınızı genişletin</string>
+  <string name="expanded_desktop_options_title">Özelleştirme seçenekleri</string>
+  <string name="expanded_desktop_style_title">Genişletilmiş masaüstü stili</string>
+  <string name="expanded_desktop_style_hide_nothing">Hiçbir şey gizleme</string>
+  <string name="expanded_desktop_style_hide_status">Durum çubuğunu gizle</string>
+  <string name="expanded_desktop_style_hide_navigation">Dolaşım çubuğunu gizle</string>
+  <string name="expanded_desktop_style_hide_both">Her ikisi de gizle</string>
+  <string name="expanded_desktop_nothing_to_show_text">Her bir uygulama için genişletilmiş masaüstü özelleştirilmesini uygulamak için kapatın</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Şarj sesleri</string>
+  <string name="charging_sounds_enabled_title">Etkinleştir</string>
+  <string name="charging_sounds_enabled_summary">Bir güç kaynağına bağlanırken ya da bağlantısını keserken bir ses çal</string>
+  <string name="power_notifications_vibrate_title">Titreşim</string>
+  <string name="charging_sounds_ringtone_title">Bildirim sesi</string>
+  <string name="charging_sounds_ringtone_silent">Sessiz</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Ekran Hareketleri</string>
+  <string name="touchscreen_gesture_settings_summary">Çeşitli dokunmatik hareketleri için hızlı eylemleri uygula</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Dokunmatik geri bildirim</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Bir dokunmatik hareket algılandığında titre</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">İki parmakla aşağı kaydır</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Bir parmakla yukarı kaydır</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Bir parmakla aşağı kaydır</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Bir parmakla sola kaydır</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Bir parmakla sağa kaydır</string>
+  <string name="touchscreen_gesture_up_arrow_title">\"Λ\" çizin</string>
+  <string name="touchscreen_gesture_down_arrow_title">\"V\" çizin</string>
+  <string name="touchscreen_gesture_left_arrow_title">\"&lt;\" çizin</string>
+  <string name="touchscreen_gesture_right_arrow_title">\"&gt;\" çizin</string>
+  <string name="touchscreen_gesture_letter_c_title">\"C\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_e_title">\"e\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_o_title">\"O\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_m_title">\"M\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_s_title">\"S\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_v_title">\"V\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_w_title">\"W\" harfi çizin</string>
+  <string name="touchscreen_gesture_letter_z_title">\"Z\" harfi çizin</string>
+  <string name="touchscreen_gesture_action_dialog_title">Hareket eylemi</string>
+  <string name="touchscreen_gesture_action_do_nothing">Hiç bir şey yapma</string>
+  <string name="touchscreen_gesture_action_flashlight">El fenerini aç/kapat</string>
+  <string name="touchscreen_gesture_action_camera">Kamerayı aç</string>
+  <string name="touchscreen_gesture_action_browser">Tarayıcıyı aç</string>
+  <string name="touchscreen_gesture_action_dialer">Çeviriciyi aç</string>
+  <string name="touchscreen_gesture_action_email">Maillerinizi görüntüleyin</string>
+  <string name="touchscreen_gesture_action_messages">Mesajları aç</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Müziği oynat/duraklat</string>
+  <string name="touchscreen_gesture_action_previous_track">Önceki şarkıya geç</string>
+  <string name="touchscreen_gesture_action_next_track">Sonraki şarkıya geç</string>
 </resources>
