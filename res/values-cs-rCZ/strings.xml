@@ -16,6 +16,24 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cmparts_title">Nastavení Xperience</string>
+  <string name="loading">Načítání</string>
+  <string name="dlg_ok">Budiž</string>
+  <string name="cancel">Storno</string>
+  <string name="add">Přidat</string>
+  <string name="choose_app">Zvolte aplikaci</string>
+  <string name="reset">Reset</string>
+  <string name="advanced">Pokročilé</string>
+  <string name="settings">Nastavení</string>
+  <string name="name">Jméno</string>
+  <string name="back">Zpět</string>
+  <string name="finish">Dokončit</string>
+  <string name="next">Další</string>
+  <string name="on">Zapnout</string>
+  <string name="off">Vypnout</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
+  <string name="search">Hledat</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <!-- Notification light dialogs -->
