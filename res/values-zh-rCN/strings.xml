@@ -176,10 +176,60 @@
   <string name="hardware_keys_action_single_handed_left">单手模式 (左)</string>
   <string name="hardware_keys_action_single_handed_right">单手模式 (右)</string>
   <string name="camera_sleep_on_release_title">屏幕速览</string>
+  <string name="camera_sleep_on_release_summary">仅当按钮被按下时，半按将会保持屏幕点亮</string>
+  <string name="camera_launch_title">启动相机</string>
+  <string name="camera_launch_summary">长按并松开将会启动相机</string>
+  <string name="volbtn_music_controls_title">播放控制</string>
+  <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键切换音乐</string>
+  <string name="volbtn_cursor_control_title">键盘光标控制</string>
+  <string name="volbtn_cursor_control_off">已禁用</string>
+  <string name="volbtn_cursor_control_on">音量键上/下控制光标左/右移动</string>
+  <string name="volbtn_cursor_control_on_reverse">音量键上/下控制光标右/左移动</string>
+  <string name="power_end_call_title">结束通话</string>
+  <string name="power_end_call_summary">按电源键结束当前通话</string>
+  <string name="swap_volume_buttons_title">跟随屏幕方向调整音量按钮布局</string>
+  <string name="swap_volume_buttons_summary">旋转屏幕时根据屏幕方向调整音量按键的布局</string>
+  <string name="button_wake_title">唤醒设备</string>
+  <string name="volume_answer_call_title">接听电话</string>
+  <string name="volume_answer_call_summary">按音量键接听电话</string>
+  <string name="home_answer_call_title">接听电话</string>
+  <string name="home_answer_call_summary">按 Home 键接听来电</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">背光</string>
+  <string name="button_backlight_enabled">点亮按钮</string>
+  <string name="keyboard_backlight_enabled">点亮键盘</string>
+  <string name="button_backlight_seekbar_title">按钮亮度</string>
+  <string name="keyboard_backlight_seekbar_title">键盘亮度</string>
+  <string name="backlight_timeout_title">背光超时</string>
+  <string name="backlight_timeout_unlimited">不要关闭</string>
+  <string name="backlight_summary_disabled">已禁用</string>
+  <string name="backlight_summary_enabled_with_timeout">为 <xliff:g id="timeout"> %s </xliff:g> 启用</string>
+  <string name="backlight_summary_enabled">已启用</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">启用屏幕导航栏</string>
+  <string name="disable_navkeys_summary">启用屏幕上导航栏并禁用硬件按钮</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">导航栏</string>
+  <string name="navigation_bar_title">按钮和布局</string>
+  <string name="navigation_bar_left_title">左利手模式</string>
+  <string name="navigation_bar_left_summary">横屏时在屏幕左侧显示导航栏</string>
+  <string name="navigation_bar_arrow_keys_title">输入时显示左右光标按钮</string>
+  <string name="navigation_bar_arrow_keys_summary">键入时显示左右光标按钮而不显示输入法选择器。</string>
+  <string name="navigation_bar_home_long_press_title">Home 键长按行为</string>
+  <string name="navigation_bar_home_double_tap_title">Home 键双击行为</string>
+  <string name="navigation_bar_recents_title">长按应用键的动作</string>
   <!-- Power menu -->
+  <string name="power_menu_title">电源菜单</string>
+  <string name="power_menu_reboot_title">重启菜单</string>
+  <string name="power_menu_screenshot_title">屏幕截图</string>
+  <string name="power_menu_airplane_title">飞行模式</string>
+  <string name="power_menu_users_title">用户切换器</string>
+  <string name="power_menu_settings_title">设置快捷方式</string>
+  <string name="power_menu_lockdown_title">锁定设备</string>
+  <string name="power_menu_bug_report_title">Bug错误报告</string>
+  <string name="power_menu_sound_title">声音面板</string>
+  <string name="power_menu_bug_report_disabled">开发者选项中已禁用错误报告</string>
+  <string name="volume_keys_control_ring_stream_title">铃声音量控制</string>
   <string name="volume_keys_control_ring_stream_summary_on">使用音量键控制铃声音量</string>
   <string name="volume_keys_control_ring_stream_summary_off">使用音量键控制媒体音量</string>
   <string name="camera_double_tap_power_gesture_title">连续按两下电源键以启动相机</string>
@@ -277,22 +327,184 @@
   <string name="choose_ringtone">选择铃声</string>
   <string name="ringtone_title">来电铃声</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+  <string name="soundtone_title">通知铃声</string>
   <!-- Title for application group setting screen -->
+  <string name="profile_appgroups_title">应用组</string>
+  <string name="profile_applist_title">应用程序</string>
+  <string name="profile_new_appgroup">新的应用组</string>
+  <string name="profile_delete_appgroup">删除此应用组？</string>
+  <string name="profile_appgroup_name_prompt">为新的应用组输入一个名称</string>
+  <string name="profile_appgroup_name_title">名称</string>
+  <string name="duplicate_appgroup_name">此应用组名称已被使用！</string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">选择应用</string>
   <!-- Profiles - system settings -->
+  <string name="profile_system_settings_title">系统设置</string>
+  <string name="profile_lockmode_title">锁屏模式</string>
+  <string name="profile_lockmode_policy_disabled_summary">此情景选项已由设备管理员策略禁用</string>
+  <string name="profile_lockmode_insecure_summary">不请求 PIN 码或密码</string>
+  <string name="profile_lockmode_disabled_summary">禁用锁屏</string>
+  <string name="profile_airplanemode_title">飞行模式</string>
+  <string name="profile_brightness_title">屏幕亮度</string>
+  <string name="profile_brightness_override_summary">设置到 %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">覆盖亮度</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
+  <string name="toggleWifiAp">便携式 Wi\u2011Fi 热点</string>
+  <string name="toggleBluetooth">蓝牙</string>
+  <string name="toggleGPS">GPS</string>
+  <string name="toggleData">数据连接</string>
+  <string name="toggleSync">自动同步数据</string>
+  <string name="toggle2g3g4g">首选网络类型</string>
+  <string name="toggle2g3g4g_msim">首选网络类型(%1$s)</string>
+  <string name="toggleNfc">NFC 近场通讯</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_title">铃声模式</string>
+  <string name="ring_mode_normal">正常</string>
+  <string name="ring_mode_vibrate">振动</string>
+  <string name="ring_mode_mute">静音</string>
+  <string name="ring_volume_title">铃声音量</string>
+  <string name="incoming_call_volume_title">铃声</string>
+  <string name="notification_volume_title">通知</string>
+  <string name="media_volume_title">媒体</string>
+  <string name="alarm_volume_title">闹钟</string>
+  <string name="doze_title">环境显示</string>
   <!-- Status bar -->
+  <string name="status_bar_title">状态栏</string>
+  <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
+  <string name="status_bar_quick_qs_pulldown_summary">沿状态栏的 %1$s 边缘下拉开启快速设置面板</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
+  <string name="status_bar_quick_qs_pulldown_off">关闭</string>
+  <string name="status_bar_quick_qs_pulldown_left">左侧</string>
+  <string name="status_bar_quick_qs_pulldown_right">右侧</string>
+  <string name="status_bar_double_tap_to_sleep_title">双击进入睡眠</string>
+  <string name="status_bar_double_tap_to_sleep_summary">双击状态栏来关闭屏幕</string>
   <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">状态栏图标</string>
+  <string name="status_bar_notif_count_title">显示通知数量</string>
+  <string name="status_bar_notif_count_summary">显示未读通知的数量</string>
+  <string name="status_bar_system_icons_title">系统图标</string>
+  <string name="status_bar_system_icons_summary">控制在状态栏显示的图标</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">时钟</string>
+  <string name="status_bar_clock_position_title">时钟位置</string>
+  <string name="status_bar_clock_position_right">右侧</string>
+  <string name="status_bar_clock_position_left">左侧</string>
+  <string name="status_bar_clock_position_center">居中</string>
+  <string name="status_bar_am_pm_title">上午 / 下午样式</string>
+  <string name="status_bar_am_pm_info">已启用24小时制</string>
+  <string name="status_bar_am_pm_normal">正常</string>
+  <string name="status_bar_am_pm_small">较小</string>
+  <string name="status_bar_am_pm_hidden">隐藏</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">电量指示器</string>
   <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">亮度</string>
+  <string name="status_bar_brightness_slider_title">亮度滑块</string>
+  <string name="status_bar_brightness_slider_summary">在快速设置中调节亮度</string>
+  <string name="status_bar_brightness_slider_auto_title">自动调节亮度</string>
+  <string name="status_bar_brightness_slider_auto_summary">在亮度滑块附近显示自动调节亮度开关</string>
+  <string name="status_bar_toggle_brightness">亮度控制</string>
+  <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_title">状态栏图标</string>
+  <string name="status_bar_icons_summary">控制在状态栏上显示的图标</string>
   <!-- Protected apps -->
+  <string name="protected_apps_manager_title">受保护的应用</string>
+  <string name="protected_apps_manager_summary">管理安全锁隐藏的应用</string>
+  <string name="traffic_category">网速指示器</string>
   <!-- Display : Rotation  -->
+  <string name="accelerometer_title">自动旋转屏幕</string>
+  <string name="display_rotation_title">旋转设置</string>
+  <string name="display_rotation_enabled">自动旋转已启用</string>
+  <string name="display_rotation_disabled">自动旋转已禁用</string>
+  <string name="display_rotation_unit">度</string>
+  <string name="display_lockscreen_rotation_title">旋转锁屏界面</string>
+  <string name="display_rotation_category_title">旋转模式</string>
+  <string name="display_rotation_0_title">0 度</string>
+  <string name="display_rotation_90_title">90 度</string>
+  <string name="display_rotation_180_title">180 度</string>
+  <string name="display_rotation_270_title">270 度</string>
   <!-- Weather -->
+  <string name="weather_settings_title">天气</string>
+  <string name="weather_settings_no_services_prompt">没有安装天气提供商服务</string>
+  <string name="weather_settings_no_services_summary">安装天气提供商以接收天气更新</string>
+  <string name="weather_settings_button">提供商设置</string>
+  <string name="weather_settings_activity_not_found">无法为此提供商启动设置菜单</string>
+  <string name="weather_settings_add_weather_provider">添加天气提供商</string>
+  <string name="weather_settings_general_settings_title">一般</string>
+  <string name="weather_settings_providers_title">提供商</string>
+  <string name="weather_settings_temp_units_title">温度单位</string>
+  <string name="weather_settings_temp_celsius">摄氏度</string>
+  <string name="weather_settings_temp_fahrenheit">华氏度</string>
+  <string name="weather_settings_keyword">天气</string>
+  <string name="status_bar_show_weather_title">显示天气</string>
+  <string name="status_bar_show_weather_summary">在状态栏上显示当前气温</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_title">省电与性能</string>
+  <string name="perf_profile_settings_summary">调整省电功能与设备性能</string>
+  <string name="perf_profile_overview_summary">当前性能配置︰ <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+  <string name="perf_profile_category_title">设备性能</string>
+  <string name="perf_profile_title">性能配置︰ <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+  <string name="perf_profile_fail_toast">性能配置当前不可用</string>
+  <string name="power_save_category_title">节省电量</string>
+  <string name="power_save_title">极致省电</string>
+  <string name="power_save_summary">限制设备性能与后台活动从而降低电量消耗</string>
+  <string name="auto_power_save_title">自动省电</string>
+  <string name="auto_power_save_summary_on">电量 %s 时自动启用省电</string>
+  <string name="auto_power_save_summary_off">不要自动启用省电</string>
+  <string name="app_perf_profiles_title">自动优化</string>
+  <string name="app_perf_profiles_summary">自动为各种应用和使用模式选择适当的性能配置</string>
+  <string name="auto_power_save_never">从不</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">扩展桌面</string>
+  <string name="expanded_desktop_settings_summary">通过隐藏状态栏、 导航栏或都隐藏以扩大您的可用桌面空间</string>
+  <string name="expanded_desktop_options_title">自定义选项</string>
+  <string name="expanded_desktop_style_title">扩展桌面样式</string>
+  <string name="expanded_desktop_style_hide_nothing">不隐藏</string>
+  <string name="expanded_desktop_style_hide_status">隐藏状态栏</string>
+  <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
+  <string name="expanded_desktop_style_hide_both">同时隐藏</string>
+  <string name="expanded_desktop_nothing_to_show_text">关闭开关并自定义每个应用的扩展桌面</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">充电提示音</string>
+  <string name="charging_sounds_enabled_title">启用</string>
+  <string name="charging_sounds_enabled_summary">连接或断开电源时发出声音</string>
+  <string name="power_notifications_vibrate_title">振动</string>
+  <string name="charging_sounds_ringtone_title">通知提示音</string>
+  <string name="charging_sounds_ringtone_silent">静音</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">触摸手势</string>
+  <string name="touchscreen_gesture_settings_summary">为快速操作采用各种触摸屏手势</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">触摸反馈</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">检测到一个触摸手势时振动</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">双指下滑</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">单指上滑</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">单指下滑</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">单指左滑</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">单指右滑</string>
+  <string name="touchscreen_gesture_up_arrow_title">绘制一个\"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">绘制一个\"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">绘制一个\"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">绘制一个\"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">绘制字母 “C”</string>
+  <string name="touchscreen_gesture_letter_e_title">绘制字母\"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">绘制字母\"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">绘制字母\"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">绘制字母\"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">绘制字母\"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">绘制字母\"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">绘制字母 “Z”</string>
+  <string name="touchscreen_gesture_action_dialog_title">手势操作</string>
+  <string name="touchscreen_gesture_action_do_nothing">不进行任何操作</string>
+  <string name="touchscreen_gesture_action_flashlight">切换手电筒</string>
+  <string name="touchscreen_gesture_action_camera">打开相机</string>
+  <string name="touchscreen_gesture_action_browser">打开浏览器</string>
+  <string name="touchscreen_gesture_action_dialer">打开拨号键盘</string>
+  <string name="touchscreen_gesture_action_email">查看您的电子邮件</string>
+  <string name="touchscreen_gesture_action_messages">查看您的信息</string>
+  <string name="touchscreen_gesture_action_play_pause_music">播放/暂停播放音乐</string>
+  <string name="touchscreen_gesture_action_previous_track">切换到上一曲目</string>
+  <string name="touchscreen_gesture_action_next_track">切换到下一曲目</string>
 </resources>
